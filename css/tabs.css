@@ -1,0 +1,28 @@
+.tabs__card{
+    display: none;
+    /* Your css here */
+}
+.tabs__card.active{
+    display: block;
+
+    /* Your css here */
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from{
+      opacity: 0.4;
+    }  
+    to{
+      opacity: 1;
+    }
+}
+.tabs-nav__item{
+    /* Your css here */
+}
+.tabs-nav__item:hover{
+    /* Your css here */
+}
+.tabs-nav__item.active{
+    /* Your css here */
+}

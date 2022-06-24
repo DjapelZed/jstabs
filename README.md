@@ -4,7 +4,7 @@
 ``` html
 <script src="js/tabs.js"></script>
 ```
-Загрузите [tabs.css](../blob/master/js/tabs.js)
+Загрузите [tabs.css](../blob/master/css/tabs.css)
 ``` html
 <link rel="stylesheet" href="css/tabs.css">
 ```

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+}
+html,
+body{
+    background: #393E46;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.wrapper{
+    min-height: inherit;
+}
+.tabs__container{
+    margin: 100px auto;
+    max-width: 1058px;
+}
+.tabsjs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px;
+    background: #222831;
+}
+.tabs__card.active{
+    display: flex;
+}
+.tabs-tab-content__image{
+    margin-right: 33px;
+}
+.tabs-tab-content__text{
+    max-width: 402px;
+}
+.tabs-tab-content__title{
+    margin-bottom: 13px;
+}
+.tabs-tab-content__description{
+    height: 308px;
+    overflow: auto;
+    padding-right: 10px;
+    -webkit-box-shadow: inset -5px -20px 50px -30px rgba(0,0,0,0.5); 
+    box-shadow: inset -5px -20px 50px -30px rgba(0,0,0,0.5);
+}
+.tabs-nav__item{
+    padding: 5px 25px;
+    background: #D9D9D9;
+    font-family: 'Gafata', sans-serif;
+    font-size: 26px;
+    color: #222831;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}
+.tabs-nav__item:hover{
+    background: #ffbb8e;
+}
+.tabs-nav__item:not(:last-child){
+    margin-bottom: 19px;
+}
+.tabs-nav__item.active{
+    background: #FD7014;
+    color: #FFFFFF;
+}
