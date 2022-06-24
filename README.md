@@ -1,10 +1,10 @@
 # JS Tabs 
 ## Подключение
-Загрузите [tabs.js](../blob/master/js/tabs.js)
+Загрузите [tabs.js](../master/js/tabs.js)
 ``` html
 <script src="js/tabs.js"></script>
 ```
-Загрузите [tabs.css](../blob/master/css/tabs.css)
+Загрузите [tabs.css](../master/css/tabs.css)
 ``` html
 <link rel="stylesheet" href="css/tabs.css">
 ```
