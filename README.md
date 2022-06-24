@@ -1,4 +1,5 @@
 # JS Tabs 
+Вкладки на JS. [Пример использования](https://djapelzed.github.io/jstabs/)
 ## Подключение
 Загрузите [tabs.js](../master/js/tabs.js)
 ``` html
